@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout101</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <div id="landing-page">
+            <div id="signup-field">
+                    <h1>SignUp</h1>
+                    <span id="signup-ermsg" style="color:red;"></span>
+                 <form>
+                    <label>email:</label> <br>
+                     <input type="text" id="signup-email"><br><br>
+                     <label>password:</label> <br>
+                      <input type="password" id="signup-password"><br><br>
+                     <label>Retype password:</label> <br>
+                      <input type="password" id="signup-password2"><br><br>
+                     <input type="submit" value="Create Account" id="signup-btn">
+             
+                 </form>
+                </div>
+                <div id="dashboard">
+                    <div id="progress-div"></div>
+                    <div id="hidden-middle-div" hidden>
+                        <h4>Account:</h4>
+                        <p>email: <span id="user-mail"></span></p>
+                        <p>password: <span id="user-pwd"></span></p>
+                        <br>
+                        <br>
+                        <span id="justnote"></span>
+                    </div>
+
+                </div>
+                <div id="login-field">
+                     <h1>Login</h1>
+                     <span id="login-ermsg" style="color:red;"></span>
+                  <form>
+                     <label>email:</label>  <br>
+                      <input type="text" id="login-email"><br><br>
+                      <label>password:</label> <br>
+                       <input type="password" id="login-password"><br><br>
+                      
+                      <input type="submit" value="Login" id="login-btn">
+              
+                  </form>
+                 </div>
+    </div>
+   
+
+    <script src="public/js/signup.js"></script>
+    <script src="public/js/login.js"></script>
+</body>
+</html>

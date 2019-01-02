@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: auto;
+    height: 100vh;
+    background-color: #3b5998;
+}
+#landing-page {
+    background-color: #3b5998;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#signup-field {
+    align-self: center;
+    text-align: center;
+}
+#login-field {
+    align-self: flex-end;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+#login-field h1, #signup-field h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#login-field #login-email{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+}
+#signup-field #signup-email {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+#login-field #login-password{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+    
+}
+#signup-field #signup-password {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+}
+#signup-field #signup-password2 {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+}
+#login-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 4px;
+    border: 1px solid blue;
+    background-color: green;
+}
+#signup-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 4px;
+    border: 1px solid greeen;
+    background-color: blue;
+}
+#login-field label {
+    font-family: sans-serif;
+}
+#signup-field label {
+    font-family: sans-serif;
+}
+
+@media (max-width: 300px){
+    #landing-page {
+        background-color: #3b5998;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+    }
+}
